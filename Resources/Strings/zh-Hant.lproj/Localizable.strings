@@ -1,11 +1,13 @@
 /* 
   Localizable.strings
   crowdin demo
-
   Created by Anne Melissa Yung on 25.06.17.
   Copyright © 2017 Melissa Yung. All rights reserved.
 */
 
-"question" = "You like?";
-"yes" = "Love it";
-"no" = "No";
+"question" = "你喜欢？";
+"yes" = "非常喜欢";
+"no" = "不是";
+"maybe" = "Maybe";
+"branchOne" = "你好一個科";
+"branchThree" = "你好一個科";
