@@ -14,6 +14,7 @@
 		FE72A0CA1EFF938800956FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE72A0C81EFF938800956FD5 /* LaunchScreen.storyboard */; };
 		FE72A0D51EFF938800956FD5 /* crowdin_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72A0D41EFF938800956FD5 /* crowdin_demoTests.swift */; };
 		FE72A0E01EFF938800956FD5 /* crowdin_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72A0DF1EFF938800956FD5 /* crowdin_demoUITests.swift */; };
+		FE72A0F61EFF96C100956FD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE72A0F81EFF96C100956FD5 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,19 @@
 		FE72A0DB1EFF938800956FD5 /* crowdin demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crowdin demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE72A0DF1EFF938800956FD5 /* crowdin_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crowdin_demoUITests.swift; sourceTree = "<group>"; };
 		FE72A0E11EFF938800956FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE72A0F21EFF968900956FD5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		FE72A0F31EFF968900956FD5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FE72A0F41EFF968E00956FD5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		FE72A0F51EFF968E00956FD5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FE72A0F71EFF96C100956FD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE72A0F91EFF96FF00956FD5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE72A0FA1EFF970000956FD5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE72A0FE1EFFA79100956FD5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		FE72A0FF1EFFA79100956FD5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FE72A1001EFFA79100956FD5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FE72A1011EFFA79600956FD5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		FE72A1021EFFA79600956FD5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FE72A1031EFFA79600956FD5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,7 @@
 		FE72A0BE1EFF938800956FD5 /* crowdin demo */ = {
 			isa = PBXGroup;
 			children = (
+				FE72A0F81EFF96C100956FD5 /* Localizable.strings */,
 				FE72A0BF1EFF938800956FD5 /* AppDelegate.swift */,
 				FE72A0C11EFF938800956FD5 /* ViewController.swift */,
 				FE72A0C31EFF938800956FD5 /* Main.storyboard */,
@@ -217,6 +232,10 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				de,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = FE72A0B31EFF938800956FD5;
 			productRefGroup = FE72A0BD1EFF938800956FD5 /* Products */;
@@ -236,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE72A0CA1EFF938800956FD5 /* LaunchScreen.storyboard in Resources */,
+				FE72A0F61EFF96C100956FD5 /* Localizable.strings in Resources */,
 				FE72A0C71EFF938800956FD5 /* Assets.xcassets in Resources */,
 				FE72A0C51EFF938800956FD5 /* Main.storyboard in Resources */,
 			);
@@ -303,6 +323,10 @@
 			isa = PBXVariantGroup;
 			children = (
 				FE72A0C41EFF938800956FD5 /* Base */,
+				FE72A0F21EFF968900956FD5 /* fr */,
+				FE72A0F41EFF968E00956FD5 /* de */,
+				FE72A0FE1EFFA79100956FD5 /* zh-Hans */,
+				FE72A1011EFFA79600956FD5 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -311,8 +335,24 @@
 			isa = PBXVariantGroup;
 			children = (
 				FE72A0C91EFF938800956FD5 /* Base */,
+				FE72A0F31EFF968900956FD5 /* fr */,
+				FE72A0F51EFF968E00956FD5 /* de */,
+				FE72A0FF1EFFA79100956FD5 /* zh-Hans */,
+				FE72A1021EFFA79600956FD5 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FE72A0F81EFF96C100956FD5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE72A0F71EFF96C100956FD5 /* en */,
+				FE72A0F91EFF96FF00956FD5 /* fr */,
+				FE72A0FA1EFF970000956FD5 /* de */,
+				FE72A1001EFFA79100956FD5 /* zh-Hans */,
+				FE72A1031EFFA79600956FD5 /* zh-Hant */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -322,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -373,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -516,6 +558,7 @@
 				FE72A0E61EFF938800956FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE72A0E71EFF938800956FD5 /* Build configuration list for PBXNativeTarget "crowdin demoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +567,7 @@
 				FE72A0E91EFF938800956FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE72A0EA1EFF938800956FD5 /* Build configuration list for PBXNativeTarget "crowdin demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +576,7 @@
 				FE72A0EC1EFF938800956FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,16 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var positiveLabel: UILabel!
+    @IBOutlet weak var negativeLabel: UILabel!
+    @IBOutlet weak var maybeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        questionLabel.text = NSLocalizedString("question", comment: "")
+        positiveLabel.text = NSLocalizedString("yes", comment: "")
+        negativeLabel.text = NSLocalizedString("no", comment: "")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

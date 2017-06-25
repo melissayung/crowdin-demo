@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  crowdin demo
+
+  Created by Anne Melissa Yung on 25.06.17.
+  Copyright © 2017 Melissa Yung. All rights reserved.
+*/
+
+"question" = "You like?";
+"yes" = "Love it";
+"no" = "No";
