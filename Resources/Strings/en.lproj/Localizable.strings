@@ -9,4 +9,5 @@
 "question" = "You like?";
 "yes" = "Love it";
 "no" = "No";
+"maybe" = "Maybe";
 "branchOne" = "Hello branch one";
