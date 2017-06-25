@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         questionLabel.text = NSLocalizedString("question", comment: "")
         positiveLabel.text = NSLocalizedString("yes", comment: "")
         negativeLabel.text = NSLocalizedString("no", comment: "")
+        maybeLabel.text = NSLocalizedString("maybe", comment: "")
     }
 }
 
