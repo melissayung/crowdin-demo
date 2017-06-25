@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE72A0C01EFF938800956FD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72A0BF1EFF938800956FD5 /* AppDelegate.swift */; };
-		FE72A0C21EFF938800956FD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72A0C11EFF938800956FD5 /* ViewController.swift */; };
-		FE72A0C51EFF938800956FD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE72A0C31EFF938800956FD5 /* Main.storyboard */; };
-		FE72A0C71EFF938800956FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE72A0C61EFF938800956FD5 /* Assets.xcassets */; };
-		FE72A0CA1EFF938800956FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE72A0C81EFF938800956FD5 /* LaunchScreen.storyboard */; };
 		FE72A0D51EFF938800956FD5 /* crowdin_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72A0D41EFF938800956FD5 /* crowdin_demoTests.swift */; };
 		FE72A0E01EFF938800956FD5 /* crowdin_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72A0DF1EFF938800956FD5 /* crowdin_demoUITests.swift */; };
-		FE72A0F61EFF96C100956FD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE72A0F81EFF96C100956FD5 /* Localizable.strings */; };
+		FE72A1291F00029A00956FD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72A10D1F00029A00956FD5 /* AppDelegate.swift */; };
+		FE72A12A1F00029A00956FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE72A10E1F00029A00956FD5 /* Assets.xcassets */; };
+		FE72A12B1F00029A00956FD5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE72A10F1F00029A00956FD5 /* Info.plist */; };
+		FE72A1311F00029A00956FD5 /* crowdin.yml in Resources */ = {isa = PBXBuildFile; fileRef = FE72A1271F00029A00956FD5 /* crowdin.yml */; };
+		FE72A1321F00029A00956FD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72A1281F00029A00956FD5 /* ViewController.swift */; };
+		FE72A1641F00038800956FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE72A1501F00038800956FD5 /* LaunchScreen.storyboard */; };
+		FE72A1651F00038800956FD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE72A1521F00038800956FD5 /* Main.storyboard */; };
+		FE72A1661F00038800956FD5 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE72A1541F00038800956FD5 /* LaunchScreen.strings */; };
+		FE72A1671F00038800956FD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE72A1561F00038800956FD5 /* Localizable.strings */; };
+		FE72A1681F00038800956FD5 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE72A1581F00038800956FD5 /* Main.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,31 +40,32 @@
 
 /* Begin PBXFileReference section */
 		FE72A0BC1EFF938800956FD5 /* crowdin demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "crowdin demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE72A0BF1EFF938800956FD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE72A0C11EFF938800956FD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FE72A0C41EFF938800956FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FE72A0C61EFF938800956FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE72A0C91EFF938800956FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FE72A0CB1EFF938800956FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE72A0D01EFF938800956FD5 /* crowdin demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crowdin demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE72A0D41EFF938800956FD5 /* crowdin_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crowdin_demoTests.swift; sourceTree = "<group>"; };
 		FE72A0D61EFF938800956FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE72A0DB1EFF938800956FD5 /* crowdin demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crowdin demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE72A0DF1EFF938800956FD5 /* crowdin_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crowdin_demoUITests.swift; sourceTree = "<group>"; };
 		FE72A0E11EFF938800956FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE72A0F21EFF968900956FD5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
-		FE72A0F31EFF968900956FD5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		FE72A0F41EFF968E00956FD5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
-		FE72A0F51EFF968E00956FD5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		FE72A0F71EFF96C100956FD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		FE72A0F91EFF96FF00956FD5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		FE72A0FA1EFF970000956FD5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		FE72A0FE1EFFA79100956FD5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
-		FE72A0FF1EFFA79100956FD5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		FE72A1001EFFA79100956FD5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		FE72A1011EFFA79600956FD5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
-		FE72A1021EFFA79600956FD5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		FE72A1031EFFA79600956FD5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FE72A10D1F00029A00956FD5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE72A10E1F00029A00956FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE72A10F1F00029A00956FD5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE72A1271F00029A00956FD5 /* crowdin.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crowdin.yml; sourceTree = "<group>"; };
+		FE72A1281F00029A00956FD5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE72A1511F00038800956FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE72A1531F00038800956FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE72A1551F00038800956FD5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FE72A1571F00038800956FD5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE72A1591F00038800956FD5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		FE72A15A1F00038800956FD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE72A15B1F00038800956FD5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FE72A15C1F00038800956FD5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE72A15D1F00038800956FD5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		FE72A15E1F00038800956FD5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FE72A15F1F00038800956FD5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FE72A1601F00038800956FD5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		FE72A1611F00038800956FD5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FE72A1621F00038800956FD5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FE72A1631F00038800956FD5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +96,8 @@
 		FE72A0B31EFF938800956FD5 = {
 			isa = PBXGroup;
 			children = (
-				FE72A0BE1EFF938800956FD5 /* crowdin demo */,
+				FE72A14E1F00038800956FD5 /* Resources */,
+				FE72A10C1F00029A00956FD5 /* Source */,
 				FE72A0D31EFF938800956FD5 /* crowdin demoTests */,
 				FE72A0DE1EFF938800956FD5 /* crowdin demoUITests */,
 				FE72A0BD1EFF938800956FD5 /* Products */,
@@ -106,20 +112,6 @@
 				FE72A0DB1EFF938800956FD5 /* crowdin demoUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FE72A0BE1EFF938800956FD5 /* crowdin demo */ = {
-			isa = PBXGroup;
-			children = (
-				FE72A0F81EFF96C100956FD5 /* Localizable.strings */,
-				FE72A0BF1EFF938800956FD5 /* AppDelegate.swift */,
-				FE72A0C11EFF938800956FD5 /* ViewController.swift */,
-				FE72A0C31EFF938800956FD5 /* Main.storyboard */,
-				FE72A0C61EFF938800956FD5 /* Assets.xcassets */,
-				FE72A0C81EFF938800956FD5 /* LaunchScreen.storyboard */,
-				FE72A0CB1EFF938800956FD5 /* Info.plist */,
-			);
-			path = "crowdin demo";
 			sourceTree = "<group>";
 		};
 		FE72A0D31EFF938800956FD5 /* crowdin demoTests */ = {
@@ -138,6 +130,46 @@
 				FE72A0E11EFF938800956FD5 /* Info.plist */,
 			);
 			path = "crowdin demoUITests";
+			sourceTree = "<group>";
+		};
+		FE72A10C1F00029A00956FD5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FE72A10D1F00029A00956FD5 /* AppDelegate.swift */,
+				FE72A10E1F00029A00956FD5 /* Assets.xcassets */,
+				FE72A10F1F00029A00956FD5 /* Info.plist */,
+				FE72A1261F00029A00956FD5 /* scripts */,
+				FE72A1281F00029A00956FD5 /* ViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FE72A1261F00029A00956FD5 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				FE72A1271F00029A00956FD5 /* crowdin.yml */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		FE72A14E1F00038800956FD5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE72A14F1F00038800956FD5 /* Strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE72A14F1F00038800956FD5 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				FE72A1501F00038800956FD5 /* LaunchScreen.storyboard */,
+				FE72A1521F00038800956FD5 /* Main.storyboard */,
+				FE72A1541F00038800956FD5 /* LaunchScreen.strings */,
+				FE72A1561F00038800956FD5 /* Localizable.strings */,
+				FE72A1581F00038800956FD5 /* Main.strings */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,10 +286,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE72A0CA1EFF938800956FD5 /* LaunchScreen.storyboard in Resources */,
-				FE72A0F61EFF96C100956FD5 /* Localizable.strings in Resources */,
-				FE72A0C71EFF938800956FD5 /* Assets.xcassets in Resources */,
-				FE72A0C51EFF938800956FD5 /* Main.storyboard in Resources */,
+				FE72A1641F00038800956FD5 /* LaunchScreen.storyboard in Resources */,
+				FE72A1671F00038800956FD5 /* Localizable.strings in Resources */,
+				FE72A1661F00038800956FD5 /* LaunchScreen.strings in Resources */,
+				FE72A1651F00038800956FD5 /* Main.storyboard in Resources */,
+				FE72A12A1F00029A00956FD5 /* Assets.xcassets in Resources */,
+				FE72A1311F00029A00956FD5 /* crowdin.yml in Resources */,
+				FE72A1681F00038800956FD5 /* Main.strings in Resources */,
+				FE72A12B1F00029A00956FD5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE72A0C21EFF938800956FD5 /* ViewController.swift in Sources */,
-				FE72A0C01EFF938800956FD5 /* AppDelegate.swift in Sources */,
+				FE72A1321F00029A00956FD5 /* ViewController.swift in Sources */,
+				FE72A1291F00029A00956FD5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,40 +355,54 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FE72A0C31EFF938800956FD5 /* Main.storyboard */ = {
+		FE72A1501F00038800956FD5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FE72A0C41EFF938800956FD5 /* Base */,
-				FE72A0F21EFF968900956FD5 /* fr */,
-				FE72A0F41EFF968E00956FD5 /* de */,
-				FE72A0FE1EFFA79100956FD5 /* zh-Hans */,
-				FE72A1011EFFA79600956FD5 /* zh-Hant */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FE72A0C81EFF938800956FD5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE72A0C91EFF938800956FD5 /* Base */,
-				FE72A0F31EFF968900956FD5 /* fr */,
-				FE72A0F51EFF968E00956FD5 /* de */,
-				FE72A0FF1EFFA79100956FD5 /* zh-Hans */,
-				FE72A1021EFFA79600956FD5 /* zh-Hant */,
+				FE72A1511F00038800956FD5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		FE72A0F81EFF96C100956FD5 /* Localizable.strings */ = {
+		FE72A1521F00038800956FD5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FE72A0F71EFF96C100956FD5 /* en */,
-				FE72A0F91EFF96FF00956FD5 /* fr */,
-				FE72A0FA1EFF970000956FD5 /* de */,
-				FE72A1001EFFA79100956FD5 /* zh-Hans */,
-				FE72A1031EFFA79600956FD5 /* zh-Hant */,
+				FE72A1531F00038800956FD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE72A1541F00038800956FD5 /* LaunchScreen.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE72A1551F00038800956FD5 /* de */,
+				FE72A15B1F00038800956FD5 /* fr */,
+				FE72A15E1F00038800956FD5 /* zh-Hans */,
+				FE72A1611F00038800956FD5 /* zh-Hant */,
+			);
+			name = LaunchScreen.strings;
+			sourceTree = "<group>";
+		};
+		FE72A1561F00038800956FD5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE72A1571F00038800956FD5 /* de */,
+				FE72A15A1F00038800956FD5 /* en */,
+				FE72A15C1F00038800956FD5 /* fr */,
+				FE72A15F1F00038800956FD5 /* zh-Hans */,
+				FE72A1621F00038800956FD5 /* zh-Hant */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		FE72A1581F00038800956FD5 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE72A1591F00038800956FD5 /* de */,
+				FE72A15D1F00038800956FD5 /* fr */,
+				FE72A1601F00038800956FD5 /* zh-Hans */,
+				FE72A1631F00038800956FD5 /* zh-Hant */,
+			);
+			name = Main.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -460,7 +510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S9KVTB62M5;
-				INFOPLIST_FILE = "crowdin demo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.myioscache.crowdin-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -473,7 +523,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S9KVTB62M5;
-				INFOPLIST_FILE = "crowdin demo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.myioscache.crowdin-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
